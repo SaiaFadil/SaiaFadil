@@ -1,0 +1,63 @@
+<html>
+<head>
+    <title> FADIL </title>
+<style>
+    body{
+        background-image: url(wppmenu.jpg);
+        background-size: cover;
+        background-repeat: repeat;
+        background-position: center;
+        background-attachment: fixed;
+        height: 100%;
+    }
+    .title{
+        text-align: center;
+        font-size: 4.5em;
+        color: #000;
+    }
+.mainmenubtn {
+    background-color: skyblue;
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+    padding:20px;
+    margin-top:20px;
+}
+.mainmenubtn:hover {
+    background-color: blue;
+    }
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child {
+    display: none;
+    background-color: skyblue;
+    min-width: 200px;
+}
+.dropdown-child a {
+    color: blue;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+</style>
+</head>
+<body>
+<div class="dropdown">
+  <button class="mainmenubtn">KAMU MAU LAGU YANG GIMANA??</button>
+  <div class="dropdown-child">
+    <a href="https://youtu.be/WFiGgM8OdPk?t=29">LAGU FAVORIT KAMU </a>
+    <a href="https://youtu.be/7KPyunRIjr0?t=110"> LAGU SAD VERSI LUAR NEGERI</a>
+    <a href="https://youtu.be/4sjehNvP8P8?t=19">LAGU SAD VERSI INDONESIA</a>
+    <a href="https://youtu.be/zL03eTYD-i0">ALBUM GUSTIXA</a>
+    <a href="https://youtu.be/lldgXCWluJY">ALBUM SKA REGGAE</a>
+    <a href="https://youtu.be/0pyM4c59yGw?t=31">CAMPURSARI</a 
+  </div>
+</div>
+<script type='text/javascript' src='https://cdn.prinsh.com/NathanPrinsley-effect/efek-salju.js'></script>
+</body>
+</html>
